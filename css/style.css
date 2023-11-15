@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
 }
@@ -17,7 +18,17 @@ body{
 .upbox2{
     width: 393px;
     height: 28px;
-    background-color: aqua;
     margin-left: 291px;
     margin-top: 14px;
+    font-family: ubuntu;
+    display: flex;
+    justify-content: space-between;
+}
+.upbox2 a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/Ubuntu-Regular.ttf);
 }
