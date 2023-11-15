@@ -4,7 +4,7 @@ body{
 .upparent{
     width: 100%;
     height: 160px;
-    background-color: red;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,12 @@ body{
 .upbox{
     width: 1243px;
     height: 56px;
-    background-color: blue;
     display: flex;
+}
+.upbox2{
+    width: 393px;
+    height: 28px;
+    background-color: aqua;
+    margin-left: 291px;
+    margin-top: 14px;
 }
