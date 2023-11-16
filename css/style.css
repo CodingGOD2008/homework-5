@@ -25,6 +25,8 @@ body{
     margin-left: 291px;
     margin-top: 14px;
     font-family: ubuntu;
+    font-weight: 500;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
 }
@@ -43,4 +45,39 @@ body{
     justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
+}
+.mainanchor{
+    color: #27187F;
+}
+.anchor{
+    color: #758BFD;
+}
+.news{
+    margin-left: 98px;
+    margin-top: 115px;
+    color: #27187F;
+
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.middle{
+    width: 1244px;
+    height: 717px;
+    background-color: red;
+    margin-left: 98px;
+    margin-top: 55px;
+    display: flex;
+    
+}
+.middlechild{
+    width: 400px;
+    height: 333px;
+    background-color: #fff;
+    display: flex;
+    padding: 33px 30px;
+    gap: 33px;
 }
